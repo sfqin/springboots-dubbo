@@ -9,4 +9,11 @@ public interface UserService {
      */
     String sayHello(String userName);
 
+    /**
+     * 用于 jmh 对照
+     * @param userName
+     * @return
+     */
+    String sayHelloV2(String userName);
+
 }

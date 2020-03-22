@@ -32,4 +32,9 @@ public class UserServiceImpl implements UserService {
         userInfoVo.setUserName(userName);
         return stringDubboService.getHelloStr(userInfoVo);
     }
+
+    @Override
+    public String sayHelloV2(String userName) {
+        return userMap.get(userName);
+    }
 }
