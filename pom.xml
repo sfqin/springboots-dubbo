@@ -13,6 +13,8 @@
     <modules>
         <module>dubbo-service-one</module>
         <module>dubbo-service-two</module>
+        <module>dubbo-service-one-api</module>
+        <module>dubbo-service-two-api</module>
     </modules>
 
     <build>
